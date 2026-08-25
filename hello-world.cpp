@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int main() {
@@ -9,5 +8,6 @@ int main() {
     cout << "Ini Nilai A = " << a << endl;
     cout << "Ini Nilai B = " << b << endl;
     // Pak Sigit
+    cout << "retta r";
     return 0;
 }
