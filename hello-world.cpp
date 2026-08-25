@@ -8,5 +8,6 @@ int main() {
     cout << "Hello, World!" << endl;
     cout << "Ini Nilai A = " << a << endl;
     cout << "Ini Nilai B = " << b << endl;
+    // Pak Sigit
     return 0;
 }
