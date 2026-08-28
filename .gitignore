@@ -1,0 +1,91 @@
+# ==========================================
+# Gitignore Template for C++ (Windows & Linux)
+# ==========================================
+
+# ------------------------------------------
+# Executables & Binaries
+# ------------------------------------------
+# Windows executables
+*.exe
+*.com
+*.scr
+
+# Linux / Unix executables & build folders
+bin/
+build/
+out/
+dist/
+Target/
+x64/
+x86/
+Debug/
+Release/
+
+# Object files & Libraries (Static & Dynamic)
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# ------------------------------------------
+# Precompiled Headers & Intermediate Files
+# ------------------------------------------
+*.gch
+*.pch
+*.idb
+*.pdb
+*.ilk
+*.exp
+*.res
+
+# ------------------------------------------
+# IDE & Compiler Specific Output
+# ------------------------------------------
+# Visual Studio / MSVC
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+
+# VS Code (Mengecualikan konfigurasi build penting jika ada)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Code::Blocks
+*.cbp.user
+*.depend
+*.layout
+
+# CMake Build Output
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# ------------------------------------------
+# Temporary & Log Files
+# ------------------------------------------
+*.log
+*.tmp
+*.temp
+*.swp
+*~
