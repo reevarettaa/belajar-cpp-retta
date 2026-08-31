@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     // 1. Integer (Bilangan Bulat)
-    int umur = 25;
+    int umur = 25.7;
     int suhu = -5;
 
     // 2. Floating Point & Double (Bilangan Desimal)
@@ -34,7 +34,7 @@ int main() {
     cout << "\n=== Ukuran Memori (System-Dependent) ===" << endl;
     cout << "Ukuran int    : " << sizeof(int) << " Byte" << endl;
     cout << "Ukuran float  : " << sizeof(float) << " Byte" << endl;
-    cout << "Ukuran double : " << sizeof(double) << " Byte" << endl;
+    cout << "Ukuran double : " << sizeof(pi) << " Byte" << endl;
     cout << "Ukuran char   : " << sizeof(char) << " Byte" << endl;
     cout << "Ukuran bool   : " << sizeof(bool) << " Byte" << endl;
 
