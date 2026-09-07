@@ -27,44 +27,32 @@ int main(){
     //     cout << "Pak Sigit" << endl;
     // }
 
-    if (false)
-    {
+    if (false){
         cout << "Pak Sigit" << endl;
-    }
-    else if (true)
-    {
+    }else if (true){
         cout << "Retta" << endl;
-    }
-    else
-    {
+    }else{
         cout << "Pak Priyo" << endl;
     }
 
-    if(a >= 3)
-    {
+    if(a >= 3){
         cout << "Pak Sigit" << endl;
-    }
-    else if (a >= 2)
-    {
+    }else if (a >= 2){
         cout << "Retta" << endl;
-    }
-    else 
-    {
+    }else {
         cout << "Pak Priyo" << endl;
     }
 
-    switch (a)
-    {
-    case 1:
-        cout << "Pak Sigit" << endl;
-        break;
-    case 2:
-        cout << "Pak Priyo" << endl;
-        break;  
-    
-    default:
-        cout << "Retta" << endl;
-        break;
+    switch (a){
+        case 1:
+            cout << "Pak Sigit" << endl;
+            break;
+        case 2:
+            cout << "Pak Priyo" << endl;
+            break;  
+         default:
+            cout << "Retta" << endl;
+            break;
     }
 
     int c = 55;
